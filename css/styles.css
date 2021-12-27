@@ -1,0 +1,175 @@
+#title {
+    background-color: rgb(255, 142, 67);
+    width:100%;
+    border: 0;
+    margin: 0;
+    padding: 10%;
+    padding-top: 5%;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+h1 {
+    font-family: "Montserrat";
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: #fff;
+}
+/*navbar*/
+.navbar {
+    background-color: rgb(185, 74, 0);
+    margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.1rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+
+.brand-img {
+    height:40px;
+    width:40px;
+}
+
+.fab {
+    padding-right: 10px;
+}
+
+/*Title*/
+.phone-img {
+    width:21%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+.download-btn {
+    margin: 5% 0 0 5%;
+}
+
+@media (max-width: 991px) {
+    #title {
+        text-align: center;
+    }
+    .phone-img {
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 50px;
+        width:40%;
+
+    }
+}
+
+/* feature*/
+.feature {
+    border: 0;
+    margin: 0;
+    padding: 10%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.fea-p {
+    color:rgb(109, 109, 109);
+}
+
+.f-icon {
+    color: rgb(255, 46, 46);
+    margin-bottom: 1rem;
+}
+
+.f-icon:hover {
+    color: darkorange;
+}
+
+/*Testimonials*/
+
+#testimonials {
+    text-align: center;
+    background-color: rgb(255, 142, 67);
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 10%;
+}
+
+h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    margin:20px;
+    border-radius: 100%;
+    width:20%;
+}
+
+/*Press*/
+#press {
+    background-color: rgb(255, 142, 67);
+    text-align: center;
+    padding-bottom:50px;
+}
+
+.press-img {
+    width:10%;
+    height: 40px;
+    margin: 0 20px 20px 20px;
+}
+
+/*pricing*/
+#pricing {
+    text-align: center;
+    margin: 9%;
+}
+
+.row-price {
+    margin-left: 130px;
+    text-align: left;
+}
+
+.card {
+    margin:20px;
+    width:400px;
+}
+
+/*Call to Action*/
+#cta {
+    text-align: center;
+    background-color: rgb(255, 142, 67);
+    color: #fff;
+    padding: 5%;
+}
+
+.cta-h3 {
+    font-size: 4rem;
+    font-family: "Montserrat";
+    padding: 0 20% 0;
+}
+
+/*footer*/
+#footer {
+    padding: 7%;
+    text-align: center;
+}
+
+.fab-foot {
+    width:50px;
+}
